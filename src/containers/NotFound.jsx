@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/styles/components/NotFound.scss';
+import { Link } from 'react-router-dom';
 
 const NotFound = () => {
   return (
@@ -12,7 +13,7 @@ const NotFound = () => {
         <span>4</span>
       </div>
       <div className='error-goBack'>
-        <a href='/'>Go home</a>
+        <Link to='/'>Go home</Link>
       </div>
     </section>
 
